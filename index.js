@@ -2,7 +2,7 @@
 for(let i= 1 ; i <=10 ; i++){
     let result = i*3
     let value = `${i} *${3} = ${result}`
-    // console.log(value)
+    console.log(value)
 }
 
 
@@ -13,7 +13,7 @@ for (let i = 1; i <= 500; i++){
         
     }
 }
-// console.log(oddnumber )
+console.log(oddnumber )
 
 let evennumber = 0
 
@@ -22,15 +22,29 @@ for (let i= 1 ; i <=500; i++ ){
         evennumber += i
     }
 }
-// console.log(evennumber)
+console.log(evennumber)
 for ( let a= 1 ; a <= 10 ; a++){
     console.log('')
      
     for ( let b = 1 ; b <= 10 ; b++){
       let result = (b * a )
       console.log(`${a} * ${b} = ${result}`)
-    }
-       
+    }       
+}
 
-        
+
+let data = ''
+for ( let a = 1 ; a<= 5 ; a++){
+    // console.log('')
+    for(let b = 1 ; b <= a ; b++ ){
+        data += '*'
+    }
+    data += '\n'
+}
+console.log(data)
+
+
+for (let i=1 ; i<=20; i++){
+    if(i==3) break
+    console.log(i)
 }
