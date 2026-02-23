@@ -5,7 +5,7 @@ for(let i= 1 ; i <=10 ; i++){
     console.log(value)
 }
 
-
+// sumation of odd number
 let oddnumber =0
 for (let i = 1; i <= 500; i++){
     if (i % 2 === 0){
@@ -14,7 +14,7 @@ for (let i = 1; i <= 500; i++){
     }
 }
 console.log(oddnumber )
-
+// sumation of even number
 let evennumber = 0
 
 for (let i= 1 ; i <=500; i++ ){
@@ -23,6 +23,8 @@ for (let i= 1 ; i <=500; i++ ){
     }
 }
 console.log(evennumber)
+
+// Nested loop
 for ( let a= 1 ; a <= 10 ; a++){
     console.log('')
      
@@ -43,8 +45,25 @@ for ( let a = 1 ; a<= 5 ; a++){
 }
 console.log(data)
 
-
+// breack
 for (let i=1 ; i<=20; i++){
     if(i==3) break
     console.log(i)
+}
+
+// continue 
+
+for (let i=1 ; i<=20 ; i++){
+    if(i=== 5 )continue
+    console.log(i)
+}
+
+// While loop
+
+let sumation = 'value'
+let done = 5 
+
+while (done >= sumation.length){
+    console.log('done')
+    done--
 }
